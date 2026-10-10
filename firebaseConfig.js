@@ -7,7 +7,7 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCZPiX6nbemcy8OC80T4JcbiiEwF74Ukd0',
+  apiKey: 'AIzaSyDe2-Aax3yODcYXm2fMZ8ux7IVIQfhK0QY',
   authDomain: 'cuatrohojas-3dfe4.firebaseapp.com',
   projectId: 'cuatrohojas-3dfe4',
   storageBucket: 'cuatrohojas-3dfe4.firebasestorage.app',
