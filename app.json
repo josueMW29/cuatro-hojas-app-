@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Cuatro Hojas",
+    "slug": "cuatro-hojas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Confirmar tu pago con Face ID",
+        "NSLocationWhenInUseUsageDescription": "Saber si ya llegaste a la cafetería",
+        "NSMotionUsageDescription": "Detectar cuando agitas el teléfono"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-location",
+      "expo-local-authentication"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f3cd8f78-9fb9-466e-9c2a-7d1f0f5ca54f"
+      }
+    },
+    "owner": "jmw29"
+  }
+}
